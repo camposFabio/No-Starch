@@ -1,0 +1,18 @@
+<script type="text/javascript">
+    function sumPowersOf2(n) {
+        let sum = 0;
+
+        if (n === 1) {
+            // BASE CASE
+            sum = 2;
+        } else {
+            sum = Math.pow(2, n) + sumPowersOf2(n - 1);
+        }
+
+        return sum;
+    }
+
+    document.write(sumPowersOf2(1) + "<br />");
+    document.write(sumPowersOf2(2) + "<br />");
+    document.write(sumPowersOf2(3) + "<br />");
+</script>
