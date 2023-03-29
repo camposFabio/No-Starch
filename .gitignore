@@ -1,4 +1,6 @@
 *.log
 *.obj
 *.exe
-.DS_Store
+*.DS_Store
+*.lnk
+*.vscode
