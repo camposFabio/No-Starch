@@ -1,4 +1,3 @@
-%use masm
 ; Comments consist of all text from a semicolon character
 ; to the end of the line.
 ; The ".code" directive tells MASM that the statements following
@@ -11,7 +10,7 @@
 ; assembly language program is a stand-alone program with its
 ; own main function.)
 
-main    PROC
+main: ;    PROC
 
 ; Machine instructions go here
 
