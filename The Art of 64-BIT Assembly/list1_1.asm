@@ -10,7 +10,7 @@
 ; assembly language program is a stand-alone program with its
 ; own main function.)
 
-main: ;    PROC
+main    PROC
 
 ; Machine instructions go here
 
